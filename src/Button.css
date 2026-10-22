@@ -1,0 +1,19 @@
+.primary-button {
+  background: #14532d;
+  color: #ffffff;
+  padding: 0.65rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.primary-button:hover {
+  background: #166534;
+  transform: translateY(-1px);
+}
+
+.primary-button:focus-visible {
+  outline: 3px solid #facc15;
+  outline-offset: 2px;
+}
